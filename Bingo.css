@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0,0,3);
+    background: linear-gradient(90deg, rgba(0,0,3,0.89) 0%, rgb(98, 98, 98) 50%, rgba(0,0,3,0.8940826330532213) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: 600 25px 'Poppins', sans-serif;
+}
+
+
+h1 {
+    font: 800 40px 'Poppins', sans-serif;
+}
+
+#free, .trocaBG {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+table {
+    border: 3px solid black;
+    color: white;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 20%;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p {
+    margin-top: 20px;
+}
